@@ -45,7 +45,7 @@
     @for(product of cart(); track product){
     <div class="flex px-1 pt-4 pb-6">
       <div class="rounded-lg shadow-lg">
-        <img [src]="product.image" [alt]="product.title" class="h-20 w-20 object-cover object-center rounded-lg">
+        <img [src]="product.images[0]" [alt]="product.title" class="h-20 w-20 object-cover object-center rounded-lg">
       </div>
       <div class="ml-4 w-full flex flex-col justify-between">
         <div class="font-semibold flex justify-between">
