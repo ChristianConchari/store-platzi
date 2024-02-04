@@ -1,0 +1,11 @@
+<div>
+  <div #waveform></div>
+  <button (click)="playButton()">
+    @if (isPlaying())
+    {
+    <span>pause</span>
+    }@else {
+    <span>play</span>
+    }
+  </button>
+</div>
